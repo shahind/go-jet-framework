@@ -2,6 +2,7 @@ package foundation
 
 import (
 	"fmt"
+	"github.com/common-nighthawk/go-figure"
 	"github.com/shahind/go-jet-framework/kernel"
 	"github.com/shahind/go-jet-framework/register"
 	"log"
@@ -47,9 +48,9 @@ func StartCommand(args []string, e BaseEntities) {
 }
 
 func startup(e BaseEntities) {
-	myFigure := figure.NewFigure("Go-Web", "graffiti", true)
+	myFigure := figure.NewFigure("Go-Jet", "graffiti", true)
 	myFigure.Print()
-	fmt.Println("Go-Web CLI tool - Author: roberto.ferro@ikdev.it")
+	fmt.Println("Go-Jet CLI tool - Author: Shahin Darvishpoor")
 	RegisterBaseEntities(e)
 }
 

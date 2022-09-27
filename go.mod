@@ -3,6 +3,7 @@ module github.com/shahind/go-jet-framework
 go 1.16
 
 require (
+	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
