@@ -5,7 +5,7 @@ import (
 	"log"
 	"os/exec"
 
-	"github.com/RobyFerro/go-web-framework/register"
+	"github.com/shahind/go-jet-framework/register"
 )
 
 // GenerateKey will generate Go-Web application key in main config.yml file

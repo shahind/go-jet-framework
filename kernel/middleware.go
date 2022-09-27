@@ -1,8 +1,8 @@
 package kernel
 
 import (
-	"github.com/RobyFerro/go-web-framework/register"
 	"github.com/gorilla/mux"
+	"github.com/shahind/go-jet-framework/register"
 )
 
 // Parse list of middleware and get an array of []mux.Middleware func

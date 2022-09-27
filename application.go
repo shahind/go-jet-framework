@@ -2,13 +2,11 @@ package foundation
 
 import (
 	"fmt"
+	"github.com/shahind/go-jet-framework/kernel"
+	"github.com/shahind/go-jet-framework/register"
 	"log"
 	"os"
 	"reflect"
-
-	"github.com/RobyFerro/go-web-framework/kernel"
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/common-nighthawk/go-figure"
 )
 
 type BaseEntities struct {

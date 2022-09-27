@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/RobyFerro/go-web-framework/tool"
 	"github.com/gorilla/mux"
+	"github.com/shahind/go-jet-framework/register"
+	"github.com/shahind/go-jet-framework/tool"
 )
 
 type Request map[string]interface{}

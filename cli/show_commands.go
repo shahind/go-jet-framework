@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/RobyFerro/go-web-framework/register"
 	"github.com/olekukonko/tablewriter"
+	"github.com/shahind/go-jet-framework/register"
 	"os"
 	"reflect"
 )

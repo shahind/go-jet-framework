@@ -1,7 +1,7 @@
 package kernel
 
 import (
-	"github.com/RobyFerro/go-web-framework/register"
+	"github.com/shahind/go-jet-framework/register"
 	"log"
 	"net"
 	"net/http"

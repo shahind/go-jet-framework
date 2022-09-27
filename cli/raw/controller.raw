@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/RobyFerro/go-web-framework/kernel"
+	"github.com/shahind/go-jet-framework/kernel"
 )
 
 type @@TMP@@Controller struct {

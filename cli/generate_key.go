@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/RobyFerro/go-web-framework/tool"
+	"github.com/shahind/go-jet-framework/register"
+	"github.com/shahind/go-jet-framework/tool"
 )
 
 // GenerateKey will generate Go-Web application key in main config.yml file

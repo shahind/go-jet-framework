@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/RobyFerro/go-web-framework/tool"
+	"github.com/shahind/go-jet-framework/register"
+	"github.com/shahind/go-jet-framework/tool"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

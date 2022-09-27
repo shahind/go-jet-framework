@@ -1,9 +1,9 @@
 package kernel
 
 import (
-	"log"
+	"github.com/shahind/go-jet-framework/register"
 	"go.uber.org/dig"
-	"github.com/RobyFerro/go-web-framework/register"
+	"log"
 )
 
 // BuildCustomContainer provides a service container with custom services.

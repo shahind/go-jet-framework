@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/RobyFerro/go-web-framework/tool"
+	"github.com/shahind/go-jet-framework/register"
+	"github.com/shahind/go-jet-framework/tool"
 )
 
 // MigrationCreate will create a new migration

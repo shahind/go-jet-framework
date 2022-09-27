@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/RobyFerro/go-web-framework/register"
+	"github.com/shahind/go-jet-framework/register"
 	"reflect"
 	"strings"
 

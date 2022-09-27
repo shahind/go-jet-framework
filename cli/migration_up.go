@@ -3,8 +3,8 @@ package cli
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/RobyFerro/go-web-framework/register"
-	"github.com/RobyFerro/go-web-framework/tool"
+	"github.com/shahind/go-jet-framework/register"
+	"github.com/shahind/go-jet-framework/tool"
 	"log"
 	"os"
 	"path/filepath"

@@ -2,8 +2,8 @@ package cli
 
 import (
 	"fmt"
-	"github.com/RobyFerro/go-web-framework/register"
 	"github.com/olekukonko/tablewriter"
+	"github.com/shahind/go-jet-framework/register"
 	"os"
 	"strings"
 )
