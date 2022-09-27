@@ -15,7 +15,7 @@ type ShowCommands struct {
 // Register this command
 func (c *ShowCommands) Register() {
 	c.Signature = "show:commands"
-	c.Description = "Show Go-Web commands list"
+	c.Description = "Show Go-Jet commands list"
 }
 
 // Run this command

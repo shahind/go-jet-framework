@@ -54,7 +54,7 @@ func startup(e BaseEntities) {
 	RegisterBaseEntities(e)
 }
 
-// RegisterBaseEntities base entities in Go-Web kernel
+// RegisterBaseEntities base entities in Go-Jet kernel
 // This method will register: Controllers, Models, CLI commands, Services and middleware
 func RegisterBaseEntities(entities BaseEntities) {
 	kernel.Controllers = entities.Controllers

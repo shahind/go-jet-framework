@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-// Handles Go-Web component auto Register
+// Handles Go-Jet component auto Register
 func autoRegister(re *regexp.Regexp, newElement string) {
 	var elements []string
 	content, err := os.ReadFile("register/register.go")

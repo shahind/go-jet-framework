@@ -12,7 +12,7 @@ import (
 	"github.com/shahind/go-jet-framework/tool"
 )
 
-// GenerateKey will generate Go-Web application key in main config.yml file
+// GenerateKey will generate Go-Jet application key in main config.yml file
 type GenerateKey struct {
 	register.Command
 }

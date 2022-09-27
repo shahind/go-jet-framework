@@ -2,6 +2,7 @@ package cli
 
 import (
 	"fmt"
+	"github.com/shahind/go-jet-framework/register"
 	"log"
 	"os"
 	"os/exec"
@@ -9,7 +10,7 @@ import (
 	"github.com/go-git/go-git/v5"
 )
 
-// GenerateKey will generate Go-Web application key in main config.yml file
+// GenerateKey will generate Go-Jet application key in main config.yml file
 type ServiceCreate struct {
 	register.Command
 }
@@ -17,7 +18,7 @@ type ServiceCreate struct {
 // Register this command
 func (c *ServiceCreate) Register() {
 	c.Signature = "service:create [service-name]" // Change command signature
-	c.Description = "Create new Go-Web service"   // Change command description
+	c.Description = "Create new Go-Jet service"   // Change command description
 }
 
 // Run this command
@@ -48,10 +49,10 @@ func (c *ServiceCreate) Help() {
 	log.Println("Usage: create-service [service-name]")
 }
 
-// Clones Go-Web repository in destination folder
+// Clones Go-Jet repository in destination folder
 func (c *ServiceCreate) clone(destination string) error {
 	_, err := git.PlainClone(destination, false, &git.CloneOptions{
-		URL:      "https://github.com/RobyFerro/go-web.git",
+		URL:      "https://github.com/shahind/go-jet.git",
 		Progress: nil,
 	})
 
@@ -74,7 +75,7 @@ func (c *ServiceCreate) reset_git() error {
 	return nil
 }
 
-// Updates Go-Web Framework to the latest minor version
+// Updates Go-Jet Framework to the latest minor version
 func (c *ServiceCreate) update() error {
 	cmd := exec.Command("go", "get", "-u", "github.com/shahind/go-jet-framework")
 	cmd.Dir = c.Args

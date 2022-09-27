@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "Go-Web Framework" will be documented in this file.
+All notable changes to the "Go-Jet Framework" will be documented in this file.
 
 ## [Unreleased]
 
@@ -153,7 +153,7 @@ All notable changes to the "Go-Web Framework" will be documented in this file.
 
 ### Changed
 
-- Go-Web `server:run` command runs outside the IOC container.
+- Go-Jet `server:run` command runs outside the IOC container.
 - Expose`SingletonServices`
 
 ## [v0.5.3-beta] - 2021-06-21
